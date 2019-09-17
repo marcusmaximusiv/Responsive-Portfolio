@@ -181,6 +181,7 @@
   @media screen and (min-width: 480px) {
     .content #body .about_me{
       width: auto;
+      float: left;
     }
     .content #header{
       width: auto;
@@ -188,6 +189,10 @@
     .content #header #navbar{
       width: auto;
       min-width: auto;
+    }
+    .content #header #navbar{
+      width: auto;
+      min-width: 480px;
     }
     .content #footer{
       width: auto;
