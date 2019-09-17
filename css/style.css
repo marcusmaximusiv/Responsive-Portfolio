@@ -181,15 +181,12 @@
   @media screen and (min-width: 480px) {
     .content #body .about_me{
       float: left;
-      min-width: 480px;
     }
     .content #header{
       width: auto;
-      min-width: 480px;
     }
     .content #header #navbar{
       width: auto;
-      min-width: 480px;
     }
     .content #footer{
       width: auto;
