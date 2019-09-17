@@ -187,6 +187,7 @@
     }
     .content #header #navbar{
       width: auto;
+      min-width: auto;
     }
     .content #footer{
       width: auto;
