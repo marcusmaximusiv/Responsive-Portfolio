@@ -4,11 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/contact_info.css" />
 </head>
 <body>
-    
+    <video autoplay muted loop id="Background_Video">
+        <source src="videos/universe.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+        </video>
+        <div class="content">
+                <section id="header">
+                    <nav id="navbar">
+                        <header><li><mark>Mark Sterrenberg</mark></li></header>
+                        <ul>
+                            <a href="index.html"><li>About Me</li></a>
+                            <a href="portfolio.html"><li>Portfolio</li></a>
+                            <a href="important_links.html"><li>Important Links</li></a>
+                            <a href="contact.html"><li>Contact</li></a>
+                        </ul>
+                    </nav>
+                </section>   
+                <br>
+                <section id="body">
+                    <div class="contact_info">
+                        <h1>Contact</h1>
+                         <form class="form">
+                                <label for="fname">Name:</label>
+                                <br>
+                                <br>
+                                <input type="text" id="fname" name="fname" placeholder="please write your name" style="height:20px; width:940px">
+                                <br>
+                                <br>
+                                <label for="email">Email:</label>
+                                <br>
+                                <br>
+                                <input type="text" id="fname" name="fname" placeholder="please write your email" style="height:20px; width:940px">
+                                <br>
+                                <br>
+                                <label for="message">Message:</label>
+                                <br>
+                                <br>
+                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width:940px;"></textarea>
+                                <br>
+                                <br>
+                                <input type="submit" value="Submit">
+                        </form>
+                        <br>
+                    </div>
+                </section>    
+                <section id="footer">
+                    <h2>&copy SMU Coding Bootcamp 2019</h2>
+                </section>
+        </div>
 </body>
 </html>
