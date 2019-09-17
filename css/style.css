@@ -185,6 +185,7 @@
     }
     .content #header{
       width: auto;
+      float: left;
     }
     .content #header #navbar{
       min-width: auto;
@@ -193,6 +194,7 @@
     .content #header #navbar{
       width: auto;
       min-width: 480px;
+      float: left;
     }
     .content #footer{
       min-width: 480px;
