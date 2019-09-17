@@ -180,22 +180,26 @@
 
   @media screen and (min-width: 480px) {
     .content #body .about_me{
-      width: auto;
+      min-width: 480px;
       float: left;
     }
     .content #header{
       width: auto;
     }
     .content #header #navbar{
-      width: auto;
       min-width: auto;
+      float: left;
     }
     .content #header #navbar{
       width: auto;
       min-width: 480px;
     }
     .content #footer{
-      width: auto;
+      min-width: 480px;
+      float: left;
+    }
+    .content body{
+      float: left;  
       min-width: 480px;
     }
   }
