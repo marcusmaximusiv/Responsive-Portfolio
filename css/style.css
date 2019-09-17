@@ -180,7 +180,7 @@
 
   @media screen and (min-width: 480px) {
     .content #body .about_me{
-      float: left;
+      width: auto;
     }
     .content #header{
       width: auto;
