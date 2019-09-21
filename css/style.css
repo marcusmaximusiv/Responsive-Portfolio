@@ -181,27 +181,38 @@
   @media screen and (min-width: 480px) {
     .content #body .about_me{
       min-width: 480px;
-      float: left;
+      float:left;
     }
     .content #header{
-      width: auto;
+      min-width:400px ;
       float: left;
     }
     .content #header #navbar{
-      min-width: auto;
+      min-width: 400px;
       float: left;
     }
     .content #header #navbar{
-      width: auto;
-      min-width: 480px;
+      min-width: 400px;
       float: left;
+    }
+    .content #header #navbar header{
+      min-width: 400px;
+    }
+    .content #header #navbar ul{
+      min-width: 400px;
+      width: auto;
     }
     .content #footer{
-      min-width: 480px;
+      min-width: 400px;
       float: left;
+      padding-top: 40px;
     }
-    .content body{
+    #body{
+      padding:30px;
+      min-width: 400px;
+    }
+    .content #body{
       float: left;  
-      min-width: 480px;
+      min-width: 400px;
     }
   }

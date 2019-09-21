@@ -27,3 +27,31 @@
   max-width: 800px;
   margin: 0 auto;
 }
+
+@media screen and (min-width: 480px) {
+
+.portfolio {
+  position: relative;
+}
+.content #body{
+  position: relative;
+}
+.content #body .portfolio .table{
+  position: relative;
+  width:400px;
+}
+.content #body .portfolio .header_portfolio{
+  position: relative;
+}
+.content #body .portfolio .table .container{
+  position: relative;
+
+}
+.content #header #navbar header{
+  width: 50px;
+}
+.container #body{
+  position:relative;
+  width: 400px;
+}
+}

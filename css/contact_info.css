@@ -12,3 +12,20 @@
   width: 100%;
   padding-top: 20px;
 }
+
+@media screen and (min-width: 480px){
+  
+  .content #body .contact-info .form{
+        width: 400px;
+        min-width:400px;
+  }
+  .content #body .contact-info {
+    min-width:400px;
+  }
+  .content #body .contact-info h1{
+    min-width:400px;
+  }
+  .content #body .contact-info .form label{
+    min-width:400px;
+  }
+}
